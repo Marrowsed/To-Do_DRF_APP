@@ -3,13 +3,43 @@
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![PyCharm](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-# To-Do_DRF_APP
+# To-Do Django Rest APP
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | To-Do App
 | :label: Tecnologias | python, django rest, postgresql, react
 
-A To-Do APP made with Django REST with React as Front-End !
+A To-Do APP made with Django REST and React as Front-End !
 
 Make your lists and never lose your goals again !
+
+<img src="https://www.django-rest-framework.org/img/logo.png#vitrinedev" alt="Django Rest Framework">
+<img src="https://arquivo.devmedia.com.br/cursos/imagem/curso_o-que-e-react_2127.png#vitrinedev">
+
+<h1> Install </h1>
+<a href="https://www.python.org/downloads/" target="_blank">Python</a> latest
+
+
+<h2>Dependencies</h2>
+
+```sh
+pip install -r requirements.txt
+```
+
+<h1> Config </h1>
+<ol>
+  <li>Create an `.env` file in the same folder where `migrate.py` is.</li>
+  <li>In your terminal with venv, execute `python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'` generating a new secret key</li>
+  <li>Insert the new secret key in `.env` file like this: `SECRET_KEY = oahsdodjifodjfodjfpadjpajsdpojsd` .</li>
+  <li>Insert the database URL in the `.env` file like this: `DATABASE_URL = your_db://your_db:password@localhost/my_db`.</li>
+  <li>Run `python manage.py migrate` and create the tables</li>
+</ol>
+
+<h1>Running</h1>
+
+```sh
+python manage.py runserver
+```
+
+Server is running in http://127.0.0.1:8000/, access your browser !
 
