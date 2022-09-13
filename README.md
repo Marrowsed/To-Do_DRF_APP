@@ -9,5 +9,7 @@
 | :sparkles: Nome        | To-Do App
 | :label: Tecnologias | python, django rest, postgresql, react
 
+A To-Do APP made with Django REST with React as Front-End !
 
+Make your lists and never lose your goals again !
 
